@@ -1,4 +1,4 @@
-.modal-form-title {
+.modal-form__title {
     font-family: var(--primary-font);
     font-weight: 700;
     font-size: 20px;
@@ -7,11 +7,11 @@
     color: var(--primary-text-dark-color);
     margin-bottom: 12px;
   }
-  .modal-form {
+  .modal__form {
     display: flex;
     flex-direction: column;
   }
-  .modal-form-input {
+  .modal-form__input {
     width: 100%;
     height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -24,11 +24,11 @@
       outline: none;
     }
   }
-  .modal-form-input-wrapper {
+  .modal-form-input__wrapper {
     position: relative;
     display: block;
   }
-  .modal-form-field-desc {
+  .modal-form-field__desc {
     font-family: var(--primary-font);
     font-weight: 400;
     font-size: 12px;
@@ -38,26 +38,26 @@
     margin-bottom: 4px;
     display: block;
   }
-  .modal-form-field {
+  .modal-form__field {
     margin-bottom: 10px;
   }
-  .modal-form-input-icon {
+  .modal-form-input__icon {
     position: absolute;
     top: 50%;
     left: 12px;
     transform: translateY(-50%);
     transition-duration: var(--time-activate);
     transition-timing-function: var(--funk-time);
-    .modal-form-input:focus + & {
+    .modal-form__input:focus + & {
       fill: var(--accent-color);
     }
   }
 
 
-  .modal-form-name {
+  .modal-form__name {
     margin-bottom: 20px;
   }
-  .modal-form-message {
+  .modal-form__message {
     width: 100%;
     height: 120px;
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -82,7 +82,7 @@
   }
 
 
-  .modal-form-check-field {
+  .modal-form-check__field {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -93,7 +93,7 @@
     line-height: 1.71;
     color: var(--second-icon-color);
   }
-  .check-box-policy {
+  .check-box__policy {
     font-family: var(--primary-font);
     font-weight: 400;
     font-size: 14px;
@@ -102,33 +102,33 @@
     text-decoration-line: underline;
     color: var(--accent-color);
   }
-  .modal-form-own-checkbox {
+  .modal-form-own__checkbox {
     border: 1px solid var(--secondary-text-dark-color);
     border-radius: 2px;
     cursor: pointer;
     margin-right: 9px;
-    .modal-form-check:checked + & {
+    .modal-form__check:checked + & {
       background-color: var(--accent-color);
       border: none;
     }
   }
 
-  .modal-form-check {
+  .modal-form__check {
     position: absolute;
     appearance: none;
   }
 
-  .modal-form-own-checkbox-icon {
+  .modal-form-own-checkbox__icon {
     display: none;
     fill: var(--primary-text-color-theme-light);
-    .modal-form-check:checked
-    + .modal-form-own-checkbox
+    .modal-form__check:checked
+    + .modal-form-own__checkbox
     & {
     display: block;
   }
   }
 
-  .modal-form-submit {
+  .modal-form__submit {
     width: 216px;
     height: 50px;
     background-color: #2196f3;

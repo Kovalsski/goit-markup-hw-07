@@ -14,7 +14,7 @@
     display: flex;
     gap: 30px;
   }
-  .image-work {
+  .work__image {
     width: 370px;
     height: 294px;
   }
@@ -22,7 +22,7 @@
     position: relative;
     overflow: hidden;
   }
-  .work-link-text {
+  .work__title {
     display: flex;
     align-items: center;
     justify-content: center;

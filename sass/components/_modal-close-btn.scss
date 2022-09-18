@@ -8,7 +8,7 @@
     transform: translate(-50%, -50%);
     padding: 40px 40px;
   }
-  .modal-close-btn {
+  .modal-close__btn {
     position: absolute;
     top: 8px;
     right: 8px;
@@ -22,7 +22,7 @@
     background-color: transparent;
     padding: 0;
   }
-  .modal-close-icon {
+  .modal-close__icon {
     transition-duration: var(--time-activate);
     transition-timing-function: var(--funk-time);
     .modal-close-btn:hover & {

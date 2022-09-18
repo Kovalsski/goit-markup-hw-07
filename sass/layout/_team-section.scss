@@ -1,9 +1,7 @@
-.my-team {
-    margin-bottom: 50px;
-  }
-  .list-team {
+  .team {
     display: flex;
     gap: 30px;
+    background-color: var(--back-color);
   }
   .my-team {
     font-weight: 700;
@@ -11,16 +9,17 @@
     line-height: 1.16;
     text-align: center;
     color: var(--grey-color);
+    margin-bottom: 50px;
   }
-  .image-team {
+  .team__image {
     width: 270px;
     height: 260px;
   }
-  .team-info {
+  .team__info {
     padding-top: 30px;
     padding-bottom: 30px;
   }
-  .name {
+  .team__name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -29,7 +28,7 @@
   
     color: var(--grey-color);
   }
-  .job-title {
+  .team-job__title {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
@@ -37,33 +36,31 @@
     color: var(--secondary-text-color-theme-light);
     margin-bottom: 16px;
   }
-  .team-box {
+  .team__item {
     background-color: var(--primary-text-color-theme-light);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
       0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
   }
-  .team {
-    background-color: var(--back-color);
-  }
+
   .team-cont {
     display: flex;
     justify-content: center;
     column-gap: 10px;
   }
   
-  .icon-job{
+  .team-cont__icon{
     &:hover {
       fill: var(--accent-color);
     }
-    .team-cont-icon:hover &,
-    .team-cont-icon:focus & {
+    .team-cont__link:hover &,
+    .team-cont__link:focus & {
       fill: var(--primary-text-color-theme-light);
     }
   }
 
   
-  .team-cont-icon {
+  .team-cont__link {
     display: flex;
     justify-content: center;
     align-items: center;
