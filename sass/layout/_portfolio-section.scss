@@ -1,11 +1,11 @@
-.skills {
+.skills__list {
     display: flex;
     gap: 30px;
   }
   .skills__item {
     flex-basis: calc((100% - 90px) / 4);
   }
-  .soft-skills__item {
+  .sskills__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -13,7 +13,7 @@
     color: var(--grey-color);
     margin-bottom: 10px;
   }
-  .soft-skills-link {
+  .skills__text {
     font-size: 14px;
     line-height: 1.71;
     color: var(--secondary-text-color-theme-light);

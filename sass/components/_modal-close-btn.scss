@@ -25,7 +25,7 @@
   .modal-close__icon {
     transition-duration: var(--time-activate);
     transition-timing-function: var(--funk-time);
-    .modal-close-btn:hover & {
+    .modal-close__btn:hover & {
       fill: var(--accent-color);
     }
   }

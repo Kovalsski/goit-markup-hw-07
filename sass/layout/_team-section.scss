@@ -1,9 +1,9 @@
-  .team {
+  .team__list {
     display: flex;
     gap: 30px;
     background-color: var(--back-color);
   }
-  .my-team {
+  .team__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
@@ -28,7 +28,7 @@
   
     color: var(--grey-color);
   }
-  .team-job__title {
+  .team__text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
@@ -43,24 +43,24 @@
     border-radius: 0px 0px 4px 4px;
   }
 
-  .team-cont {
+  .team__cont {
     display: flex;
     justify-content: center;
     column-gap: 10px;
   }
   
-  .team-cont__icon{
+  .team__icon{
     &:hover {
       fill: var(--accent-color);
     }
-    .team-cont__link:hover &,
-    .team-cont__link:focus & {
+    .team__link:hover &,
+    .team__link:focus & {
       fill: var(--primary-text-color-theme-light);
     }
   }
 
   
-  .team-cont__link {
+  .team__link {
     display: flex;
     justify-content: center;
     align-items: center;
